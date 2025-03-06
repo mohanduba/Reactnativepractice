@@ -29,6 +29,9 @@ import NavComponent from './navigation/NavComponent';
 import Team from './card/Team';
 import AddSkills from './AddSkills';
 import Pracvalidate from './Pracvalidate';
+import Home from './login/Home';
+import { Provider } from 'react-redux';
+import { store } from './api/store';
 
 
 export default function App() {
@@ -62,7 +65,10 @@ export default function App() {
     {/* <NavComponent/> */}
     {/* <Team/> */}
     {/* <AddSkills/> */}
-    <Pracvalidate/>
+    {/* <Pracvalidate/> */}
+    <Provider store={store}>
+      <Home/>
+    </Provider>
     </View>
   );
 }
