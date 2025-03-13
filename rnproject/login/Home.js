@@ -6,6 +6,7 @@ import Login from './Login';
 import Signup from './Signup';
 import Profile from './Profile';
 import EmailOtpVerify from './EmailOtpVerify';
+import TechProfile from './TechProfile';
 
 const Stack =createNativeStackNavigator();
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <Stack.Screen name='signup' component={Signup} />
             <Stack.Screen name='otpverify' component={EmailOtpVerify} />
             <Stack.Screen name='profile' component={Profile} />
+            <Stack.Screen name='technicianProfile' component={TechProfile} />
         </Stack.Navigator>
     </NavigationContainer>
   )

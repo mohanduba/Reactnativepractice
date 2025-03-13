@@ -31,7 +31,11 @@ const Login = () => {
                     }), navigation
                 )
                 
-                navigation.navigate("profile")
+                if (result?.data?.login_roleid === 1) {
+                    navigation.navigate("profile");
+                } else if (result?.data?.login_roleid === 2) {
+                    navigation.navigate("technicianProfile");
+                }
             }else{
                 Alert.alert('Invalid Credentials');
             }

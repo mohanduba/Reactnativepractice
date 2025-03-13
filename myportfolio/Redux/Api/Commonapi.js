@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://datastorage-4d01d-default-rtdb.firebaseio.com'

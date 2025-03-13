@@ -30,7 +30,7 @@ const Signup = () => {
       const response=await register(values).unwrap();
       console.log('i am response',response);
       if(response?.result_Code===200){
-        Alert.alert('Login Success');
+        Alert.alert('Enter Otp');
         navigation.navigate('otpverify',{state:formik.values.email})
       } else if (response.result_Code === 404 || response.result_Message === "User Already Exists") {
         Alert.alert("User Already Exists")
