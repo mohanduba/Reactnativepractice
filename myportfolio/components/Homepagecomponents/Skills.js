@@ -4,7 +4,7 @@ import Logowithtext from "../../Globalcomponents/Logowithtext";
 
 
 const Skills = ({ palete, techskilldata, devtooldata }) => {
-
+    console.log("Tech Skills Data:", techskilldata);
     return (
         <Import.View style={{ marginBottom: 20 }}>
             <Import.View style={{ marginBottom: 8 }}><Import.Text style={{ textAlign: "center", fontSize: 18, color: Import.colors?.[palete.mode].iconcolor, fontFamily: Import.Theme.h1.fontFamily }}>
