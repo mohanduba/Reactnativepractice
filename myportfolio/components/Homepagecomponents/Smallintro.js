@@ -46,7 +46,7 @@ const Smallintro = ({ palete, handledownload, handleScrollToEnd }) => {
                 </Import.View>
             </View>
             <View style={{ marginVertical: 16, alignItems: 'center' }}>
-                <Image source={require('../../Images/user-11.jpg')} style={{ width: 200, height: 200, borderRadius: 100 }} />
+                <Image source={require('../../Images/prf.jpg')} resizeMode='cover' style={{ width: 200, height: 200, borderRadius: 100 }} />
             </View>
         </View>
     )

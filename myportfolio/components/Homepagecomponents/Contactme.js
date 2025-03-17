@@ -21,8 +21,8 @@ const Contactme = ({ palete }) => {
                 setindicator(true)
 
                 const response = await emailjs.send(
-                    "service_0rfwf3l",
-                    "template_hgdmjhe",
+                    "service_s0prtew",
+                    "template_k67ye1u",
                     {
                         user_email: value.email,
                         user_name: value.fullname,
@@ -31,8 +31,8 @@ const Contactme = ({ palete }) => {
                         message: value.message,
                     },
                     {
-                        publicKey: 'gZOYd9tIClELhPGrR',
-                        accessToken: 'MU1_jvXncktUV16V9xqTU',
+                        publicKey: 'DJCIkcZG9nrg-4zUM',
+                        accessToken: 'lWxQIYKyd5fgOzeaUXmnH',
                     },
 
                 );

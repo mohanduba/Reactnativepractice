@@ -34,7 +34,7 @@ const Counter = () => {
       </TouchableOpacity>
     </View>
   </View>
-))}
+))}      
        <TextInput style={{borderWidth:1,width:100,height:40}}  value={name} onChangeText={(name)=>setName(name)}/>
        <TouchableOpacity onPress={()=>{
         if(userId){

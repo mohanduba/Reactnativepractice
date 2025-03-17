@@ -89,3 +89,4 @@ const userSlice=createSlice({
 export const {addUser,deleteUser,updataUser,getUser}=userSlice.actions;
 
 export default userSlice.reducer;
+
