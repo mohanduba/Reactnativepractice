@@ -4,7 +4,7 @@
     "slug": "myportfolio",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/entry.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {

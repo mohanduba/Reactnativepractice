@@ -13,7 +13,7 @@ const Projects = ({ palete, prodata }) => {
 
             {prodata?.length > 0 ? prodata?.map((item, index) => (
                 <Import.View key={index} style={styles.container}>
-                    <Import.ImageBackground source={require('../../Images/bg.png')} style={{ padding: 8 }}>
+                    <Import.ImageBackground source={require('../../Images/bgprj.png')} style={{ padding: 8 }}>
                         <Import.View style={{ flex: 1, flexDirection: "row", justifyContent: "space-between", backgroundColor: "#000", borderRadius: 100, paddingHorizontal: 12, paddingVertical: 12 }}>
                             <Import.View style={{ flex: 1, flexDirection: "column" }}>
                                 <Import.View>

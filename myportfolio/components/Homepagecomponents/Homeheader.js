@@ -7,7 +7,7 @@ const Homeheader = ({ palete, updatetheme, handledarkmode, animatedIndicatorStyl
     return (
 
         <Import.View>
-            <Import.ImageBackground source={require('../../Images/bgimage.jpg')}>
+            <Import.ImageBackground source={require('../../Images/bgdark.jpg')}>
                 <Import.View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderWidth: 1, padding: 5, borderRadius: 25, marginHorizontal: Import.Theme.distancebetweenmobedges.marginHorizontal, backgroundColor: '#e8decf', marginTop: 8 }}>
                     <Import.View style={{ flexDirection: 'row', gap: 5, alignItems: 'center' }}>
                         <Import.Image source={require('../../Images/mlogo.jpg')} resizeMode='cover' style={{ width: 30, height: 30, borderRadius: 50, borderWidth: 1 }} />
