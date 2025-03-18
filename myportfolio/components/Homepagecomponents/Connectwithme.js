@@ -95,7 +95,7 @@ const Connectwithme = ({ palete }) => {
                 }}
             >
                 <Import.Image
-                    source={require("../../Images/software2.jpg")}
+                    source={require("../../Images/dev.png")}
                     style={{ width: 280, height: 280, resizeMode: "contain" }}
                 />
             </Import.View>
