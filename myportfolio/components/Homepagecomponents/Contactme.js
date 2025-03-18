@@ -80,7 +80,7 @@ const Contactme = ({ palete }) => {
                 }}
             >
                 <Import.ImageBackground
-                    source={require("../../Images/formbg.jpg")} 
+                    source={require("../../Images/contactbg.jpg")} 
                     style={{
                         flex: 1,
                         justifyContent: "center",
