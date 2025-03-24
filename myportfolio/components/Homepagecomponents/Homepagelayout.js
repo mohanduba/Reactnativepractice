@@ -108,7 +108,7 @@ const Homepagelayout = ({ palete, updatetheme, expdata, setExperiencedata, setPr
         const backgroundColor = interpolateColor(
             translateX.value,
             [5, 40.4], 
-            ["#FF991C", "#FF991C"] 
+            ["#b882fa", "#b882fa"] 
         );
 
         return {

@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/cube.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mohan45.course"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88bfd1e9-0278-4bfa-9cad-2d18f5832757"
+      }
     }
   }
 }

@@ -14,7 +14,7 @@ const Smallintro = ({ palete, handledownload, handleScrollToEnd }) => {
             <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10, marginVertical: 10 }}>
 
 
-                <Import.TouchableOpacity onPress={handledownload} style={{ flexDirection: 'row', gap: 1, alignItems: 'center', borderWidth: 1, paddingHorizontal: 8, backgroundColor: 'rgba(255, 165, 0, 0.4)', borderRadius: 25, borderColor: 'orange' }}>
+                <Import.TouchableOpacity onPress={handledownload} style={{ flexDirection: 'row', gap: 1, alignItems: 'center', borderWidth: 1, paddingHorizontal: 8, backgroundColor: 'rgba(184, 130, 250, 0.4)', borderRadius: 25, borderColor: '#b882fa' }}>
                     <AntDesign name='download' color={Import.colors?.[palete.mode].iconcolor} />
                     <Import.Button
                         onPress={handledownload}
@@ -30,7 +30,7 @@ const Smallintro = ({ palete, handledownload, handleScrollToEnd }) => {
                 </Import.TouchableOpacity>
 
 
-                <Import.View style={{ borderWidth: 1, backgroundColor: 'orange', borderRadius: 25, borderColor: 'orange' }}>
+                <Import.View style={{ borderWidth: 1, backgroundColor: '#b882fa', borderRadius: 25, borderColor: '#b882fa' }}>
                     <Import.Button
                         onPress={handleScrollToEnd}
                         fontFamily={Import.Theme.buttons_fontstyle.fontFamily}
