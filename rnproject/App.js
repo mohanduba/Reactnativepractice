@@ -62,13 +62,13 @@ export default function App() {
     {/* <Goal/> */}
     {/* <Checkbox/> */}
     {/* <Radio/> */}
-    <NavComponent/>
+    {/* <NavComponent/> */}
     {/* <Team/> */}
     {/* <AddSkills/> */}
     {/* <Pracvalidate/> */}
-    {/* <Provider store={store}>
+    <Provider store={store}>
       <Home/>
-    </Provider> */}
+    </Provider>
     </View>
 
   );
