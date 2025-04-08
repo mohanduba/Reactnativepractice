@@ -2,8 +2,6 @@ import React, { useRef, useState } from "react";
 import Import from "../../Globalimports/Imports";
 
 
-
-
 const Experience = ({ palete, expdata }) => {
 
 
