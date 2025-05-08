@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "STS",
+    "slug": "ShipToShop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ShipToShoplogo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/ShipToShoplogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3db4e6"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ShipToShoplogo.png",
+        "backgroundColor": "#3db4e6"
+      },
+      "package": "com.subbu_dhoni.ShipToShop"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a30a2c54-a2fe-43d1-9ea3-a2245b92e7bd"
+      }
+    }
+  }
+}

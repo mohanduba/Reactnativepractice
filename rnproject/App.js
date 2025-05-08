@@ -52,7 +52,7 @@ export default function App() {
     {/* <PracticeCrud/> */}
     {/* <Crudstr/> */}
     {/* <Search/> */}
-    {/* <Searchapi/> */}
+    <Searchapi/>
     {/* <Searchfilter/> */}
     {/* <Test/> */}
     {/* <Addapi/> */}
@@ -66,9 +66,9 @@ export default function App() {
     {/* <Team/> */}
     {/* <AddSkills/> */}
     {/* <Pracvalidate/> */}
-    <Provider store={store}>
+    {/* <Provider store={store}>
       <Home/>
-    </Provider>
+    </Provider> */}
     </View>
 
   );
