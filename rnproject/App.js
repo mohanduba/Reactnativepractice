@@ -52,8 +52,8 @@ export default function App() {
     {/* <PracticeCrud/> */}
     {/* <Crudstr/> */}
     {/* <Search/> */}
-    <Searchapi/>
-    {/* <Searchfilter/> */}
+    {/* <Searchapi/> */}
+    <Searchfilter/>
     {/* <Test/> */}
     {/* <Addapi/> */}
     {/* <Budget/> */}
@@ -69,6 +69,7 @@ export default function App() {
     {/* <Provider store={store}>
       <Home/>
     </Provider> */}
+    
     </View>
 
   );
