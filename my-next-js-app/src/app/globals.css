@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.container {
+  background-color: aqua;
+}
