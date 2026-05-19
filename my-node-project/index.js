@@ -2,9 +2,10 @@ const express = require("express");
 const addfn = require("./Add");
 const data = require("./data.json");
 const db = require("./db"); // ✅ DB connection
+const cors = require("cors");
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
 
 console.log("Hello node");
@@ -16,7 +17,7 @@ console.log("Hello node");
 app.post("/add", (req, res) => {
   const { a, b } = req.body;
 
-  if (a == null || b == null) {
+  if (a == null || b == null || a === "" || b === "") {
     return res.status(400).json({ error: "a and b are required" });
   }
 
